@@ -1,0 +1,21 @@
+{
+    "server":{
+        "host":"0.0.0.0",
+        "port": 3000
+    },
+    
+    "mysql": {
+        "host":"sql6.freemysqlhosting.net",
+        "port": 3306,
+        "database": "sql6505231",
+        "user": "sql6505231",
+        "password": "zuGkjp8iVp"
+    },
+    "salt": 10,
+    "secret_key":"secretkey",
+    "SECRET":"SECRET_KEY_BEE_051296@",
+    "SECRET_REFRESH": "SECRET_REFRESH_BEE_220296@mebe",
+    "tokenLife": 25,
+    "refreshTokenLife": 2592000
+
+}

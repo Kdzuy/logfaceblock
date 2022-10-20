@@ -17,8 +17,8 @@ process.env.TZ= "Asia/Bangkok";
 
 //hàm đặt lại lịch quét
 const jobRunlogfaceblocks = schedule.scheduleJob('*/7 * * * *', async function(){
-    await RunFaceblocks('https://faceblocks.onrender.com/blog');
-    await RunFaceblocks('https://face-ids.onrender.com/blog');
+    await RunFaceblocks('https://faceblocks.herokuapp.com/blog');
+    await RunFaceblocks('https://face-ids.herokuapp.com/blog');
     // await getNotification();
 });
 // const jobRunNotifi = schedule.scheduleJob('*/45 * * * *', async function(){
